@@ -1,6 +1,6 @@
 # Kharites-tools
 
-Gem to provided several tools for Kharites
+Gem to provide several tools for [Kharites](http://github.com/jpablobr/kharites)
 
 ## Installation ##
 
@@ -14,9 +14,9 @@ Or from source:
     cd kharites-tools
     rake install
 
-Enter **Kharites**.
-
 ## Usage ##
+
+Enter `Kharites`
 
 StaticMatic will set up a basic site structure for you with this command:
 
