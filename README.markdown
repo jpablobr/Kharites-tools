@@ -1,6 +1,6 @@
 # Kharites-tools
 
-Gem to provide several tools for [Kharites](http://github.com/jpablobr/kharites)
+Gem to provide several tools to [Kharites](http://github.com/jpablobr/kharites)
 
 ## Installation ##
 
