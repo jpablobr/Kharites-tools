@@ -2,6 +2,8 @@
 
 Gem to provide several tools to [Kharites](http://github.com/jpablobr/kharites)
 
+[http://rubygems.org/gems/Kharites-tools](http://rubygems.org/gems/Kharites-tools)
+
 ## Installation ##
 
 For the latest stable version:
