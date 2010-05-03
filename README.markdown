@@ -48,7 +48,7 @@ You’re done. SRSLY.
 
 ## TODO ##
 
-   * Add commands for install, start, sync [Post receive hooks](http://github.com/guides/post-receive-hooks), deploy, etc...
+   * Add commands for install, start, sync (for [Post receive hooks](http://github.com/guides/post-receive-hooks)), deploy, etc...
 
 ## Note on Patches/Pull Requests ##
 
