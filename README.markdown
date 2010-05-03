@@ -38,13 +38,15 @@ After this command you'll have the following files:
 
 Kharites sets you up with a sample layout, stylesheet and page file. 
 
+    kharites server
+
 Load this URL in your browser:
 
     http://localhost:4567/ariticles/article
 
 You’re done. SRSLY.
 
-## TOOD ##
+## TODO ##
 
    * Add commands for install, start, sync [Post receive hooks](http://github.com/guides/post-receive-hooks), deploy, etc...
 
