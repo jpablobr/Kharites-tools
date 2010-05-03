@@ -1,0 +1,5 @@
+.DS_Store
+coverage
+pkg
+spec/sandbox/test_article/public/*
+spec/sandbox/tmp

@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require File.dirname(__FILE__) + '/../lib/kharites'
+
+command = ARGV[0]
+directory = ARGV[1]
+
+if !command || !directory
+  puts "Usage: #{$0} <generate> <article>"
+  exit  
+end
+
+$:.push File.join(directory, "lib")
+
+kharites = Kharites::Base.new(directory)
+kharites.run(command)
