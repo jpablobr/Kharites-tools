@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{Kharites-tools}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jose Pablo Barrantes"]
@@ -52,9 +52,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Tools for the Karites.}
   s.test_files = [
-    "spec/spec_helper.rb",
+    "spec/base_spec.rb",
      "spec/setup_spec.rb",
-     "spec/base_spec.rb"
+     "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
@@ -62,9 +62,12 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<thor>, [">= 0.13.0"])
     else
+      s.add_dependency(%q<thor>, [">= 0.13.0"])
     end
   else
+    s.add_dependency(%q<thor>, [">= 0.13.0"])
   end
 end
 

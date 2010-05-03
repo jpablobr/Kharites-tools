@@ -44,7 +44,7 @@ Kharites sets you up with a sample layout, stylesheet and page file.
 
 Load this URL in your browser:
 
-    http://localhost:4567/ariticles/article
+    http://localhost:4567/articles/article
 
 You’re done. SRSLY.
 
