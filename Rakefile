@@ -14,6 +14,7 @@ begin
     gemspec.authors = ["Jose Pablo Barrantes"]
     gemspec.rubyforge_project = "kharites-tools"
     gemspec.files =  FileList["[A-Z]*", "{bin,lib,spec}/**/*"]
+    gemspec.add_runtime_dependency "thor", ">= 0.13.0"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
