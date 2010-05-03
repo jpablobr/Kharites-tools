@@ -6,7 +6,7 @@ Gem to provide several tools to [Kharites](http://github.com/jpablobr/kharites)
 
 For the latest stable version:
 
-` sudo gem install kharites-tools`
+    sudo gem install Kharites-tools
 
 Or from source:
 
