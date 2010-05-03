@@ -18,7 +18,7 @@ Or from source:
 
 Enter `Kharites`
 
-StaticMatic will set up a basic site structure for you with this command:
+Kharites will set up a basic site structure for you with this command:
 
     kharites generate <article>
 
