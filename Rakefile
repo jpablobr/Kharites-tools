@@ -3,6 +3,26 @@ require 'spec/rake/spectask'
 
 require File.dirname(__FILE__) + '/lib/kharites'
 begin
+
+GEM = "Kharites-tools"
+  AUTHOR = "Jose Pablo Barrantes"
+  EMAIL = "xjpablobrx@gmail.com"
+  SUMMARY = "Tools for the Karites"
+  HOMEPAGE = "http://github.com/jpablobr/kharites-tools/tree/master"
+  INSTALL_MESSAGE = %q{
+  ========================================================================
+  Thanks for installing Kharites-tools!
+  ------------------------------------------------------------------------
+  You can now (optionally) run the generator to copy some stylesheets and
+  a config initializer (<article-name>.kharites) into your application:
+
+    $ kharites generate <article-name>
+
+  Find out more and get involved:
+    http://github.com/jpablobr/kharites-tools
+  ========================================================================
+  }
+
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "Kharites-tools"
