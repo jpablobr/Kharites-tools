@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{Kharites-tools}
-  s.version = "0.1.1"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jose Pablo Barrantes"]
-  s.date = %q{2010-05-03}
+  s.date = %q{2010-05-17}
   s.default_executable = %q{kharites}
   s.description = %q{Tools for Karites.}
   s.email = %q{xjpablobrx@gmail.com}
@@ -31,10 +31,12 @@ Gem::Specification.new do |s|
      "lib/kharites/mixins/generate.rb",
      "lib/kharites/mixins/server.rb",
      "lib/kharites/mixins/sync.rb",
-     "lib/kharites/templates/article/article.kharites",
+     "lib/kharites/templates/article/article.yml",
+     "lib/kharites/templates/article/public/404.html",
+     "lib/kharites/templates/article/public/500.html",
      "lib/kharites/templates/article/public/images/article.jpg",
      "lib/kharites/templates/article/public/javascripts/article.js",
-     "lib/kharites/templates/article/views/application.sass",
+     "lib/kharites/templates/article/public/stylesheets/article.css",
      "lib/kharites/templates/article/views/index.haml",
      "lib/kharites/templates/article/views/layout.haml",
      "spec/base_spec.rb",
@@ -52,9 +54,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Tools for the Karites.}
   s.test_files = [
-    "spec/base_spec.rb",
+    "spec/spec_helper.rb",
      "spec/setup_spec.rb",
-     "spec/spec_helper.rb"
+     "spec/base_spec.rb"
   ]
 
   if s.respond_to? :specification_version then
