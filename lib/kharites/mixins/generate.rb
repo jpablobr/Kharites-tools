@@ -10,7 +10,7 @@ module Kharites::SetupMixin
       end
     end
 
-    FileUtils.cd(@base_dir) {|dir| FileUtils.mv("article.kharites", "#{dir}.kharites") unless "#{dir}.kharites" == "article.kharites"}
+    FileUtils.cd(@base_dir) {|dir| FileUtils.mv("article.yml", "#{dir}.yml") unless "#{dir}.yml" == "article.yml"}
 
     puts "Done"
   end
